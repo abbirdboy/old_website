@@ -134,6 +134,16 @@ ul {
 	}
 	&__content {
 		padding-top: 40px;
+
+		pre {
+			overflow-x: auto;
+
+			code {
+				overflow-wrap: normal;
+				white-space: pre;
+			}
+		}
+
 		h1 {
 			font-size: 1.4em;
 			font-weight: 700;
