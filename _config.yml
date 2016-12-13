@@ -22,6 +22,7 @@ sass:
 # Markdown
 markdown: kramdown
 kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
   input: GFM
   hard_wrap: false
 highlighter: rouge
