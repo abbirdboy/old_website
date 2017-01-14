@@ -44,7 +44,7 @@ Now that we know we don't need the up and down arrow keys, what about the left a
 5. `ctrl-k` - delete from cursor to the end of the line
 6. `ctrl-u` - delete from cursor to the beginning of the line
 7. `alt-d` - delete the word in front of the cursor
-8. `alt-w` - delete the word behind of the cursor
+8. `ctrl-w` - delete the word behind of the cursor
 
 The last four aren't necessarily movements, but I use them in conjunction most of the time.
 
