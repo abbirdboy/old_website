@@ -15,6 +15,8 @@ Some of these commands list `alt` as a prefix character. This is because I have 
 
 I also assume you're using bash. I know there are some cool newcomers out there like zsh and fish, but after trying others out I always found that some of my utilities were missing or ill-replaced. If you are not using bash then YMMV.
 
+I also assume you are using at least bash version 4. If you're on a Mac then, unless you have manually installed bash with homebrew, you are using an old version. Install bash with homebrew and include it in `/etc/shells`. 
+
 ## Repeat Commands
 
 I spend a lot of my time in terminal repeating commands that I have previously run. One thing I noticed a lot of people do is use the up and down arrows to navigate their history of commands. This is terribly inefficient. It requires repositioning your hands and often times removing your eyes from the computer screen. Also, your history (depending on your HISTSIZE) can be very long. Using the up and down arrows is almost like searching through a terrible version of the Oxford English Dictionary which has one word per page. Instead of searching line-by-line I use search history  (`ctrl-r` and `ctrl-s`).
