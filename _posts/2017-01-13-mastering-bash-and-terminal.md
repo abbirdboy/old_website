@@ -23,8 +23,6 @@ I spend a lot of my time in terminal repeating commands that I have previously r
 
 In your terminal window, before you type any text press `ctrl-r` and you should see your prompt change to `(reverse-i-search):`. Now begin typing any part of any previous command you have executed and you will see the most recent command which matches your search. If this is not the one you want, press `ctrl-r` again to search incrementally. For example, if you are searching for `kubectl delete pods -l=app=nginx` you would type `kubectl` or `kubectl del`. You should land on that command. If, while incremtnally searching backward, you pass the one you're looking for, press `ctrl-s` to go the other direction and you will see your prompt change to `(i-search):`. Once you find the command you want press enter to execute it or move the cursor left/right to modify the command first.
 
-![History Searching](https://dl.dropboxusercontent.com/u/8911647/Blog%20Images/ctrl-r.gif)
-
 *NOTE  `ctrl-s` probably won't work by default for most terminals. You will need to add `stty -ixon` to your `~/.bashrc` (`~/.bash_profile` for Mac).*
 
 Sometimes you know that the command that you want to repeat is only two or three places back in history. In these cases it is sometimes easier to move up to that command directly. But you still should not use the arrow keys. Bash has keyboard shortcuts for this too! Here is where we use `ctrl-p` for "previous" or `ctrl-n` for "next." Pressing `ctrl-p` moves to the previous command in history (replacing the up arrow), and `ctrl-n` moves to the next command (replacing the down arrow). 
