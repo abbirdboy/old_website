@@ -195,6 +195,7 @@ ul {
 		img {
 			margin-top: 10px;
 			margin-bottom: 10px;
+			max-width: 100%;
 			@media screen and (max-width: $br) {
 				width: 100%;
 				margin: auto;
@@ -207,7 +208,6 @@ ul {
 			background: $color-grey;
 		}
 		.highlight {
-			margin: 10px;
 			margin-bottom: 15px;
 			padding: 10px;
 			line-height: 1.5;
@@ -222,6 +222,9 @@ ul {
 			margin: 15px;
 			border: 0;
 			border-bottom: 1px dashed $color-black;
+		}
+		ol li {
+			line-height: 150%;
 		}
 	}
 }
