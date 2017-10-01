@@ -118,7 +118,7 @@ If you need to run a command indefinitely you can send it to the background by f
 
 `bg`, `fg`, and `disown` can be used with the job number found in `jobs -l`. If you run `jobs -l` you will see the job number at the beginning of the line. If you want to bring the 2nd job to the foreground you run `fg %2`. If you want to disown the fourth job then you run `disown -h %4`, and so on. The plus sign (or minus sign) at the bigging of the line has meaning as well. A plus sign indicates that the job is the most recently used, or the one that will be targeted if you type any of the commands without a job ID. The minus sign is the second most recently used.
 
-![](https://dl.dropboxusercontent.com/u/8911647/Blog%20Images/disown.gif)
+![](https://dl.dropboxusercontent.com/s/y1h8uf45rxyz18q/disown.gif)
 
 I use `ctrl-z` a lot because I use a single terminal window for vim and as my command line interface. When I'm writing code in vim and I need to get back to my shell prompt I use `ctrl-z` to suspend vim. *NOTE this will still print stdout and stderr to your command window. If you want to change that then you can redirect to files*
 
@@ -135,7 +135,7 @@ function jobs_count {
 export PS1="\[\e[32m\]\u\[\e[m\]@\[\e[32m\]\h\[\e[m\]:\[\e[34m\]\w\[\e[m\]\`git_branch\`\`jobs_count\`\n\$ "
 ```
 
-![](https://dl.dropboxusercontent.com/u/8911647/Blog%20Images/jobs-count-ss.png)
+![](https://dl.dropbox.com/s/3or8n4xzrn7jxyk/jobs-count-ss.png)
 
 ## Working With Files
 
