@@ -1,6 +1,7 @@
 ---
 title: Making Your Life Easy In Git
 layout: post
+published: false
 ---
 
 Git is a very powerful and full-featured VCS that can either be your friend or your greatest foe.  There are countless ways to use git and some really quick ways to get yourself out of bad situations.  Often times you will find that most of these "quick fixes" will cause someone a lot of pain and should never be done unless absolutely necessary.  Git makes your coding life easier and more manageable if you follow some general guidelines.

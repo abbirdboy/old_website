@@ -6,6 +6,7 @@ tags:
   - zsh
   - terminal
   - workflow
+published: false
 ---
 
 *TLDR;* `bindkey -e` in .zshrc to enable Emacs bindings.

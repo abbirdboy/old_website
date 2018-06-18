@@ -5,6 +5,7 @@ tags:
   - bash
   - terminal
   - workflow
+published: true
 ---
 
 If there is one tool that every developer uses regardless of language, platform, or framework it's the terminal. If we are not compiling code, executing git commands, or scp-ing ssl certificates to some remote server, we are finding a new version of cowsay to entertain ourselves while we wait on one of the former. As much as we use the terminal it is important that we are efficient with it. Here are some ways I make my time in the terminal efficient and effective. 
